@@ -102,7 +102,7 @@ a.pure-button-primary {
 .home-menu .pure-menu-heading {
     color: black;
     font-weight: 400;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .home-menu .pure-menu-selected a {
@@ -141,18 +141,15 @@ a.pure-button-primary {
     /* absolute center .splash within .splash-container */
     margin: auto;
     position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: 6em; left: 0; bottom: 0; right: 0;
     text-align: center;
 }
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 20px;
     font-weight: bold;
     color: white;
     border: 3px solid white;
-    padding: 1em 1.6em;
-    font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
 }
@@ -224,7 +221,7 @@ a.pure-button-primary {
     }
     /* We want to give the content area some more padding */
     .content {
-        padding: 1em;
+        padding: 8em;
     }
 
     /* We can align the menu header to the left, but float the
@@ -249,7 +246,6 @@ a.pure-button-primary {
     }
 
     .splash-head {
-        font-size: 250%;
     }
 
 
@@ -268,6 +264,5 @@ a.pure-button-primary {
 @media (min-width: 78em) {
     /* We increase the header font size even more */
     .splash-head {
-        font-size: 300%;
     }
 }

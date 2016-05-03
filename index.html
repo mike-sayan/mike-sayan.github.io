@@ -36,7 +36,7 @@
 	<div class="splash-container">
 	    <div class="splash">
 	    	<img class="img-circle" src="./img/me.jpg">
-	    	<h2>{{bio.title}}</h2>
+	    	<h2 id="bioTitle">{{bio.title}}</h2>
 	        <p class="splash-subhead">
 	            {{bio.paragraph}}
 	        </p>
@@ -44,16 +44,16 @@
 	</div>
 
 	<div class="content-wrapper">
-	    <div class="content">
-	        <h2 class="content-head is-center">Education</h2>
-	        <div class="pure-g is-center">
+	    <div class="content is-center">
+	        <h2 class="content-head">Education</h2>
+	        <div class="pure-g">
 		        <div class="pure-u-1-1">
 			        <h3>{{edu.title}}</h3>
 			        <h4>{{edu.graduation}}</h4>
 			       	<h4>{{edu.gpa}}</h4>
 			        <h4>{{edu.deans}}</h4>
 			        <h4>Courses: </h4>
-			        <li ng-repeat="class in edu.classes">
+			        <li class="course" ng-repeat="class in edu.classes">
 			        	{{class}}
 			        </li>
 			    </div>
@@ -61,8 +61,8 @@
 
 	        <hr/>
 
-	        <h2 class="content-head is-center">Experience</h2>
-	        <div class="pure-g is-center">
+	        <h2 class="content-head">Experience</h2>
+	        <div class="pure-g">
 		        <div>
 		        	<div ng-repeat="job in jobs" class="pure-u-1-2">
 			        	<work></work>
@@ -72,9 +72,9 @@
 
 	        <hr/>
 
-	        <h2 class="content-head is-center">Projects</h2>
-	        <h6 class="content-head is-center">Hover over for Video</h6>
-	        <div class="pure-g is-center">
+	        <h2 class="content-head">Projects</h2>
+	        <h6 class="content-head">Hover over for Video</h6>
+	        <div class="pure-g">
 	        	<div ng-repeat="project in projects" class="pure-u-1-2">
 		        	<project></project>
 		        </div>
@@ -82,7 +82,7 @@
 
 	        <hr/>
 
-	        <h2 class="content-head is-center">CSE 300</h2>
+	        <h2 class="content-head">CSE 300</h2>
 	        <div class="pure-g">
 		        <ul class="pure-u-1-2">
 		        	<li><a href="./300/resume.pdf">Resume</a></li>

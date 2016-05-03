@@ -36,6 +36,7 @@
 	<div class="splash-container">
 	    <div class="splash">
 	    	<img class="img-circle" src="./img/me.jpg">
+	    	<h2>{{bio.title}}</h2>
 	        <p class="splash-subhead">
 	            {{bio.paragraph}}
 	        </p>
@@ -44,21 +45,47 @@
 
 	<div class="content-wrapper">
 	    <div class="content">
+	        <h2 class="content-head is-center">Education</h2>
+	        <div class="pure-g is-center">
+		        <div class="pure-u-1-1">
+			        <h3>{{edu.title}}</h3>
+			        <h4>{{edu.graduation}}</h4>
+			       	<h4>{{edu.gpa}}</h4>
+			        <h4>{{edu.deans}}</h4>
+			        <h4>Courses: </h4>
+			        <li ng-repeat="class in edu.classes">
+			        	{{class}}
+			        </li>
+			    </div>
+	        </div>
+
+	        <h2 class="content-head is-center">Experience</h2>
+	        <div class="pure-g is-center">
+		        <div>
+		        	<div ng-repeat="job in jobs" class="pure-u-1-2">
+			        	<work></work>
+			        </div>
+			    </div>
+	        </div>
+
 	        <h2 class="content-head is-center">Projects</h2>
-	        <div class="pure-g">
+	        <h6 class="content-head is-center">Hover over for Video</h6>
+	        <div class="pure-g is-center">
 	        	<div ng-repeat="project in projects" class="pure-u-1-2">
 		        	<project></project>
 		        </div>
 	        </div>
-	    </div>
 
-	<div class="content-wrapper">
-	    <div class="content">
-	        <h2 class="content-head is-center">Experience</h2>
+	        <h2 class="content-head is-center">CSE 300</h2>
 	        <div class="pure-g">
-	        	<div ng-repeat="job in jobs" class="pure-u-1-2">
-		        	<work></work>
-		        </div>
+		        <ul class="pure-u-1-2">
+		        	<li><a href="./300/resume.pdf">Resume</a></li>
+		        	<li><a href="./300/coverletter.pdf">Cover Letter</a></li>
+		        	<li><a href="./300/instructions.pdf">User Instructions</a></li>
+		        	<li><a href="./300/litreview.pdf">Literature Review</a></li>
+		        	<li><a href="./300/researchprop.pdf">Research Proposal</a></li>
+		        	<li><a href="./300/newsrelease.pdf">News Release</a></li>
+		        </ul>
 	        </div>
 	    </div>
 
@@ -69,6 +96,8 @@
 	            <h2 class="content-head content-head-ribbon">Contact me</h2>
 	            <p>Email: {{contact.email}}</p>
 	            <p>Tel: {{contact.telephone}}</p>
+	            <br><br>
+	            <p>Created by Mike Sayan using PureCSS and Angular JS</p>
 	        </div>
 	    </div>
 	</div>

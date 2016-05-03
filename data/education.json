@@ -1,0 +1,21 @@
+{
+	"title" : "Stony Brook University",
+	"graduation" : "Graduation: May 2016",
+	"gpa" : "Major GPA: 3.6",
+	"deans" : "Dean's List: Summer 2014, Fall 2014, Spring 2015, Fall 2015",
+	"classes" : [
+					"Computer Science I - III",
+					"Foundations of Computer Science",
+					"System Fundamentals I - II",
+					"Theory of Computation",
+					"Operating Systems",
+					"Software Engineering",
+					"Analysis of Algorithms",
+					"Computer Game Programming",
+					"Cloud Computing",
+					"Computer Music",
+					"Calculus I - II",
+					"Linear Algebra",
+					"Graph Theory and Combinatorics"
+	]
+}

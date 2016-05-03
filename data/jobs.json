@@ -1,14 +1,14 @@
 [
     {
-        "title" : "Marshalls",
-        "occupation" : "Cashier",
-        "duration" : "June 2014 - June 2015",
-        "description" : "Remaining calm when speaking to entitled customers, handling abnormally large purchases of towels, handling subsequent returns of said towels, and explaining the (few) benefits of a TJX Rewards Credit Card to unsuspecting customers."
-    },
-    {
         "title" : "Nickelodeon",
         "occupation" : "Backend Web Development Intern",
         "duration" : "January 2016 - Current",
-        "description" : "Supporting all platforms including Web, iOS, Android, AppleTV, and Roku. Using Spring MVC, and MongoDB to implement RESTful architecture."
+        "description" : "Supporting all platforms including Web, iOS, Android, AppleTV, and Roku. Using Spring MVC and MongoDB to implement RESTful architecture."
+    },
+    {
+        "title" : "Marshalls",
+        "occupation" : "Cashier",
+        "duration" : "June 2014 - June 2015",
+        "description" : "Remaining calm when speaking to entitled customers, handling abnormally large purchases of towels."
     }
 ]

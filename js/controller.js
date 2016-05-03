@@ -1,6 +1,7 @@
 var app = angular.module('app');
 
 var bioDataUrl = "./data/bio.json";
+var eduDataUrl = "./data/education.json";
 var contactDataUrl = "./data/contact.json";
 var jobDataUrl = "./data/jobs.json";
 var projectDataUrl = "./data/projects.json";
@@ -9,6 +10,10 @@ app.controller('appController', ['$scope', '$http', function ($scope, $http){
 
     $http.get(bioDataUrl).then(function(response) {
         $scope.bio = response.data;
+    });
+
+    $http.get(eduDataUrl).then(function(response) {
+        $scope.edu = response.data;
     });
 
     $http.get(contactDataUrl).then(function(response) {

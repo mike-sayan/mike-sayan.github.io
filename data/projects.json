@@ -2,34 +2,34 @@
     {
         "title" : "Muse",
         "videoUrl" : "./videos/muse.webm",
-        "description" : "Online multiplayer music game, where users can collaborate to create music over the internet in real time using just their mouse",
-        "tech" : "Architected and deployed a scalable multitiered solution using Node.JS, Socket IO, nginx, and etcd service discovery"
+        "description" : "Real-time online multiplayer music game",
+        "tech" : "Architected and deployed a scalable multitiered solution using Ansible, Node.JS, Socket IO, nginx, and etcd service discovery"
     },
 
     {
         "title" : "NACHOS Functionality",
-        "description" : "Added additional functionality to an Operating System running on a MIPS simulator",
-        "tech" : "Implemented virtual memory, demand paging, various syscalls (exec, fork, join, read, write), round robin & multilevel feedback scheduling, console driver, directories, extensible files, and long files"
+        "description" : "Added functionality to a emulated MIPS OS",
+        "tech" : "Implemented virtual memory with demand paging, many syscalls (ex. exec, fork, join), multilevel feedback scheduling, console, and file system"
     },
 
     {
         "title" : "Ricochet Hell",
         "videoUrl" : "./videos/rh.webm",
-        "description" : "Local multiplayer top down shoot 'em up game, where bullets increase speed and power as they ricochet off walls",
+        "description" : "Multiplayer shooter with bouncing bullets",
         "tech" : "Prototype game started as an exercise to learn the Unity game engine"
     },
 
     {
         "title" : "Dr. Bill's Jewel Heist",
         "videoUrl" : "./videos/bill.webm",
-        "description" : "In Dr. Bill's Jewel Heist, use your jetpack to traverse levels, collect jewels, and avoid lasers & guards",
-        "tech" : "Developed theme, design, all media assets. Programmed logic, integrated SFML Audio & Box2D into game engine, created custom map importer, debug options, controller support, and all memory management"
+        "description" : "Avoid the lasers and find the jewels",
+        "tech" : "Developed theme & all assets. Integrated SFML Audio & Box2D into game engine, added debug options, custom map importer, controller functionality, and memory management"
     },
 
     {
         "title" : "Journey Through Europe",
         "videoUrl" : "./videos/jte.webm",
-        "description" : "Recreation of a board game where players visit various cities in Europe",
-        "tech" : "Created using JavaFX, all data stored in XML files, and implemented Dijkstra's algorithm for computer player AI"
+        "description" : "The Classic",
+        "tech" : "Used JavaFX GUI, styled using CSS, external XML for data, and implemented Dijkstra's algorthim for AI"
     }
 ]

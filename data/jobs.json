@@ -1,9 +1,9 @@
 [
     {
         "title" : "Nickelodeon",
-        "occupation" : "Backend Web Development Intern",
+        "occupation" : "Freelance Junior Software Engineer",
         "duration" : "January 2016 - Current",
-        "description" : "Supporting all platforms including Web, iOS, Android, AppleTV, and Roku. Using Spring MVC and MongoDB to implement RESTful architecture."
+        "description" : "Working on Backend web services using Spring MVC, supporting multiple platforms including web, mobile, and video apps."
     },
     {
         "title" : "Marshalls",

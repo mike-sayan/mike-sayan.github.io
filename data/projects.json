@@ -5,7 +5,9 @@
         "videoUrl" : "./videos/rh.webm",
         "awards" : "Placed 2nd in the 2016 Stony Brook University Game Competition",
         "description" : "Multiplayer shooter with bouncing bullets",
-        "tech" : "Work in progress game started as an exercise to learn the Unity game engine, written in C#"
+        "tech" : "Work in progress game started as an exercise to learn the Unity game engine, written in C#",
+        "url" : "https://www.youtube.com/watch?v=_whQrl0jggY",
+        "urlDescription" : "Trailer"
     },
 
     {
@@ -32,6 +34,7 @@
     {
         "title" : "Journey Through Europe",
         "videoUrl" : "./videos/jte.webm",
+        "imageUrl" : "./img/jte.png",
         "description" : "The Classic",
         "tech" : "Used JavaFX GUI, styled using CSS, external XML for data, and implemented Dijkstra's algorthim for AI"
     }

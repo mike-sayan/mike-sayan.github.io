@@ -24,6 +24,22 @@ h6{
     color: #66D9EF;
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: white;
+}
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
@@ -44,6 +60,7 @@ h6{
 
 .is-center {
     text-align: center;
+    width: 100%;
 }
 
 

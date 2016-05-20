@@ -6,10 +6,12 @@
 			<div class="video">
     			<video loop onmouseout="this.pause()" onmouseover="this.play()">
       				<source src="{{project.videoUrl | trustUrl}}" type="video/mp4">
+      				<img src="{{project.pictureUrl}}">
     			</video>
   			</div>
 		</div>
 	</div>
-	<h4>{{project.awards}}</h4>
+	<h6>{{project.awards}}</h6>
+	<li><a href="{{project.url}}">{{project.urlDescription}}</a></li>
 	<li>{{project.tech}}</li>
 </ul>

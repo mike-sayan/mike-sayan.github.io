@@ -4,8 +4,9 @@
 	<div ng-if="project.videoUrl">
  		<div id="videosList">           
 			<div class="video">
-    			<video loop onmouseout="this.pause()" onmouseover="this.play()" poster="{{project.pictureUrl}}">
-      				<source src="{{project.videoUrl | trustUrl}}" type="video/mp4">
+    			<video loop onmouseout="this.pause()" onmouseover="this.play()">
+      				<source ng-src="{{project.videoUrl | trustUrl}}" type="video/mp4">
+      				<img ng-src="{{project.pictureUrl}}">
     			</video>
   			</div>
 		</div>

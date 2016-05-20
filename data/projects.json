@@ -1,4 +1,13 @@
 [
+
+    {
+        "title" : "Ricochet Hell",
+        "videoUrl" : "./videos/rh.webm",
+        "awards" : "Placed 2nd in the 2016 Stony Brook University Game Competition",
+        "description" : "Multiplayer shooter with bouncing bullets",
+        "tech" : "Work in progress game started as an exercise to learn the Unity game engine, written in C#"
+    },
+
     {
         "title" : "Muse",
         "videoUrl" : "./videos/muse.webm",
@@ -7,21 +16,15 @@
     },
 
     {
-        "title" : "NACHOS Functionality",
+        "title" : "OS Functionality",
         "description" : "Added functionality to a emulated MIPS OS",
         "tech" : "Implemented virtual memory with demand paging, many syscalls (ex. exec, fork, join), multilevel feedback scheduling, console, and file system"
     },
 
     {
-        "title" : "Ricochet Hell",
-        "videoUrl" : "./videos/rh.webm",
-        "description" : "Multiplayer shooter with bouncing bullets",
-        "tech" : "Prototype game started as an exercise to learn the Unity game engine"
-    },
-
-    {
         "title" : "Dr. Bill's Jewel Heist",
         "videoUrl" : "./videos/bill.webm",
+        "awards" : "Finalist in the 2015 Stony Brook University Game Competition",
         "description" : "Avoid the lasers and find the jewels",
         "tech" : "Developed theme & all assets. Integrated SFML Audio & Box2D into game engine, added debug options, custom map importer, controller functionality, and memory management"
     },
